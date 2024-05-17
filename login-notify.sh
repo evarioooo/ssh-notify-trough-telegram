@@ -6,7 +6,7 @@ login_date="$(date +"%e %b %Y, %a %r")"
 login_name="$(whoami)"
 
 # For new line I use $'\n' here
-message="New login to server"$'\n'User: "$login_name"$'\n'IP: "$login_ip"$'\n'Date: "$login_date"
+message="New" + "test"
 
 #send it to telegram
 telegram-send "$message"
