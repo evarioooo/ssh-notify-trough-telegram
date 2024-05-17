@@ -1,6 +1,7 @@
 # Installation
 git clone this repo  
 navigato to ssh-notify-trough-telegram/  
+`cd ssh-notify-trough-telegram/`
 edit your id and token inside telegram-send.sh  
 chmod +x telegram-send.sh  
 
