@@ -1,7 +1,7 @@
 #!/bin/bash
     
-GROUP_ID=-1002046349205
-BOT_TOKEN=6439627478:AAGYMgtbT970_lV5H4-wVmAa6KOiXUzXMSM
+GROUP_ID=<your-id>
+BOT_TOKEN=<your-token>
 
 # this 3 checks (if) are not necessary but should be convenient
 if [ "$1" == "-h" ]; then
