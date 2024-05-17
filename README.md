@@ -1,11 +1,13 @@
 # Installation
 git clone this repo
 navigato to telegram-send/
+edit your id and token inside telegram-send.sh
 chmod +x telegram-send.sh
 
-### Optional:
 sudo cp telegram-send.sh /usr/bin/telegram-send
 (In order to use this script from everywhere)
+
+suso cp login-notify.sh /etc/profile.d/login-notify.sh
 
 ---
 # Usage
