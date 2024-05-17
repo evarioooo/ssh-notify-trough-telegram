@@ -4,7 +4,7 @@ navigato to telegram-send/
 chmod +x telegram-send.sh
 
 ### Optional:
-sudo mv telegram-send.sh /usr/bin/telegram-send
+sudo cp telegram-send.sh /usr/bin/telegram-send
 (In order to use this script from everywhere)
 
 ---
