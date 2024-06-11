@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://www.evarioo.de" target="_blank"><img src="https://i.ibb.co/sPVdY46/github-readme-logo.png" width="493" /></a><br>
-    <img src="https://img.shields.io/github/stars/evarioooo/keyhelp-nextcloud-vhost?style=for-the-badge&label=Repo%20stars" />
+    <img src="https://img.shields.io/github/stars/evarioooo/ssh-notify-trough-telegram?style=for-the-badge&label=Repo%20stars" />
 </p>
 
 # Are you having some trouble?
