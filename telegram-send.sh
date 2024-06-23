@@ -3,6 +3,8 @@
 GROUP_ID=<your-id>
 BOT_TOKEN=<your-token>
 
+# Don't change anything from here on.
+
 # this 3 checks (if) are not necessary but should be convenient
 if [ "$1" == "-h" ]; then
   echo "Usage: `basename $0` \"text message\""
