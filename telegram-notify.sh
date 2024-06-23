@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Credits: https://bogomolov.tech/Telegram-notification-on-SSH-login/
+
 # This file determines the content of your message.
 # If you know what you are doing, you can extend 
 # the script with other parameters.
