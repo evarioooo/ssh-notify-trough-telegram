@@ -23,7 +23,7 @@ Do you really need some help and are stuck? Don't hesitate and just contact me i
 5.) In order to use this script from everywhere  
 `sudo cp telegram-send.sh /usr/bin/telegram-send`  
   
-`sudo cp login-notify.sh /etc/profile.d/login-notify.sh`
+`sudo cp telegram-notify.sh /etc/profile.d/telegram-notify.sh`
   
 ---
 # Usage
