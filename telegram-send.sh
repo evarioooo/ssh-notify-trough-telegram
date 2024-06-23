@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# https://bogomolov.tech/Telegram-notification-on-SSH-login/
+# Credits: https://bogomolov.tech/Telegram-notification-on-SSH-login/
     
 GROUP_ID=<your-id>
 BOT_TOKEN=<your-token>
