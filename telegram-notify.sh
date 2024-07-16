@@ -12,9 +12,10 @@
 login_ip="$(echo $SSH_CONNECTION | cut -d " " -f 1)"
 login_date="$(date +"%e %b %Y, %a %r")"
 login_name="$(whoami)"
+hostname="$(hostname -s)"
 
 # For new line I use $'\n' here
-message="New login to server"$'\n'"User: $login_name"$'\n'"Ip: $login_ip"$'\n'"Date: $login_date"
+message="Neuer Login auf $hostname"$'\n'"Benutzer: $login_name"$'\n'"IP: $login_ip"$'\n'"Datum: $login_date"
 
 #send it to telegram
 telegram-send "$message"
