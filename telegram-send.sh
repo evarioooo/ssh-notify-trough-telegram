@@ -2,8 +2,8 @@
 
 # Credits: https://bogomolov.tech/Telegram-notification-on-SSH-login/
     
-GROUP_ID=<your-id>
-BOT_TOKEN=<your-token>
+group_id=<your-id>
+bot_token=<your-token>
 
 # Don't change anything from here on.
 
@@ -24,4 +24,4 @@ if [ "$#" -ne 1 ]; then
     exit 0
 fi
 
-curl -s --data "text=$1" --data "chat_id=$GROUP_ID" 'https://api.telegram.org/bot'$BOT_TOKEN'/sendMessage' > /dev/null
+curl -s --data "text=$1" --data "chat_id=$group_id" 'https://api.telegram.org/bot'$bot_token'/sendMessage' > /dev/null
